@@ -1,0 +1,24 @@
+/* Write your CSS here */
+.about-container {
+  width: 80%;
+  max-width: 1140px;
+  margin: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 80vh;
+}
+.small-img {
+  display: none;
+}
+.large-img {
+  width: 80%;
+}
+@media screen and (max-width: 768px) {
+  .large-img {
+    display: none;
+  }
+  .small-img {
+    display: block;
+  }
+}

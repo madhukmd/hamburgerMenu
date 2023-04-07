@@ -1,0 +1,146 @@
+/* Write your CSS here */
+.nav-container {
+  border-bottom: 1px solid #dcdcdc;
+}
+
+.header-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 80%;
+  max-width: 1140px;
+  margin: auto;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+.website-logo {
+  height: 80px;
+  width: 80px;
+}
+@media screen and (max-width: 768px) {
+  .website-logo {
+    height: 40px;
+    width: 40px;
+  }
+}
+
+.ham-icon {
+  height: 30px;
+  width: 30px;
+}
+@media screen and (max-width: 768px) {
+  .ham-icon {
+    height: 23px;
+    width: 23px;
+  }
+}
+
+.button {
+  border: none;
+  outline: none;
+  cursor: pointer;
+  background-color: transparent;
+}
+.popup-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #ffffff;
+  width: 100vw;
+  height: 100vh;
+}
+.cl-button {
+  border: none;
+  cursor: pointer;
+  outline: none;
+  background-color: transparent;
+}
+
+.cl-icon {
+  height: 30px;
+  width: 30px;
+  margin: 30px;
+}
+
+@media screen and (max-width: 768px) {
+  .cl-icon {
+    height: 20px;
+    width: 20px;
+    margin: 15px;
+  }
+}
+
+.icon {
+  height: 30px;
+  width: 30px;
+  color: #616e7c;
+}
+
+@media screen and (max-width: 768px) {
+  .icon {
+    height: 20px;
+    width: 20px;
+  }
+}
+
+.content-container {
+  width: 80%;
+  max-width: 1140px;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+
+  flex-grow: 1;
+}
+.size-home {
+  height: 35px;
+  width: 35px;
+  color: #616e7c;
+}
+
+@media screen and (max-width: 768px) {
+  .size-home {
+    height: 25px;
+    width: 25px;
+  }
+}
+
+.popup-nav {
+  padding-left: 0;
+  list-style: none;
+  width: 100%;
+  flex-grow: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.nav-link {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-decoration: none;
+  margin-bottom: 20px;
+}
+
+.nav-heading {
+  font-family: 'Roboto';
+  font-weight: 500;
+  font-size: 30px;
+  margin: 0px;
+  margin-left: 10px;
+  color: #616e7c;
+}
+
+@media screen and (max-width: 768px) {
+  .nav-heading {
+    font-size: 20px;
+  }
+}
+
+/* * {
+  border: 1px solid blue;
+} */
